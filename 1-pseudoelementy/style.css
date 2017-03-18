@@ -1,0 +1,15 @@
+#paragraf-przed::before {
+	content: "przed paragrafem";
+	color: green;
+}
+#paragraf-przed::after {
+	content: "po paragrafie";
+	color: red;
+}
+#paragraf-przed::first-letter {
+	content: "paragraf";
+	text-transform: uppercase;
+}
+#paragraf-przed::first-line {
+	color: yellow;
+}
