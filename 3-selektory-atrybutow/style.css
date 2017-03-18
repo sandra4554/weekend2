@@ -4,6 +4,9 @@ div[title] {
 div[suma="1500"] {
 	background-color: lightblue;
 }
-div[class*="kluczowy"] {
+div[class~="kluczowy"] {
 	background-color: greenyellow;
+}
+div[title^="key"] {
+	background-color: orange;
 }
