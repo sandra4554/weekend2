@@ -4,3 +4,6 @@ div[title] {
 div[suma="1500"] {
 	background-color: lightblue;
 }
+div[class*="kluczowy"] {
+	background-color: greenyellow;
+}
