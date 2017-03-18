@@ -16,3 +16,26 @@ a:focus {
 a:lang(pl) {
 	background-color: pink;
 }
+
+p:target {
+	background-color: lightgreen;
+}
+#kontener p:first-child {
+	background-color: lightgray;
+}
+#kontener p:last-child {
+	background-color: lavender;
+}
+#kontener > div:only-child {
+	background-color: violet;
+}
+#kontener p:empty::before {
+	content: "przed elementem";
+	color: skyblue;
+}
+#kontener p:nth-child(3){
+	background-color: lightgray;
+}
+#kontener p:nth-child(3n+2){
+	background-color: pink;
+}
