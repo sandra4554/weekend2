@@ -1,0 +1,18 @@
+a{
+	color: lightblue;
+}
+a:visited {
+	color: bisque;
+}
+a:hover {
+	color: coral;
+}
+a:active {
+	color: yellowgreen;
+}
+a:focus {
+	color: yellow;
+}
+a:lang(pl) {
+	background-color: pink;
+}
