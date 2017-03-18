@@ -1,0 +1,6 @@
+div[title] {
+	background-color: yellow;
+}
+div[suma="1500"] {
+	background-color: lightblue;
+}
