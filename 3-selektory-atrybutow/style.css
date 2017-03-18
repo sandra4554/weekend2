@@ -10,3 +10,6 @@ div[class~="kluczowy"] {
 div[title^="key"] {
 	background-color: orange;
 }
+div[title$="1"] {
+	background-color: lightpink;
+}
